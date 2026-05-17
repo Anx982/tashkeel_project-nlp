@@ -1,0 +1,98 @@
+{
+  "Seq2Seq + Bahdanau Attention": {
+    "Per-Diacritic results": {
+      "Tanwin Fath": {
+        "accuracy": 0.6152610441767068,
+        "total": 1245,
+        "correct": 766
+      },
+      "Tanwin Damm": {
+        "accuracy": 0.6711840228245364,
+        "total": 1402,
+        "correct": 941
+      },
+      "Tanwin Kasr": {
+        "accuracy": 0.6608695652173913,
+        "total": 1955,
+        "correct": 1292
+      },
+      "Fatha": {
+        "accuracy": 0.7378568780126066,
+        "total": 78213,
+        "correct": 57710
+      },
+      "Damma": {
+        "accuracy": 0.754230983819974,
+        "total": 21508,
+        "correct": 16222
+      },
+      "Kasra": {
+        "accuracy": 0.7292987449864148,
+        "total": 30916,
+        "correct": 22547
+      },
+      "Shadda": {
+        "accuracy": 0.6664558677387298,
+        "total": 11069,
+        "correct": 7377
+      },
+      "Sukun": {
+        "accuracy": 0.7634452915722234,
+        "total": 29118,
+        "correct": 22230
+      }
+    },
+    "bleu": 0.786,
+    "full_der": 0.2602,
+    "case_ending_der": 0.2099,
+    "wer": 0.3564
+  },
+  "Seq2Seq without Attention": {
+    "Per-Diacritic results": {
+      "Tanwin Fath": {
+        "accuracy": 0.03334610962054427,
+        "total": 2609,
+        "correct": 87
+      },
+      "Tanwin Damm": {
+        "accuracy": 0.09255688391824142,
+        "total": 2593,
+        "correct": 240
+      },
+      "Tanwin Kasr": {
+        "accuracy": 0.03272827282728273,
+        "total": 3636,
+        "correct": 119
+      },
+      "Fatha": {
+        "accuracy": 0.08778791222605561,
+        "total": 143186,
+        "correct": 12570
+      },
+      "Damma": {
+        "accuracy": 0.11009795748228428,
+        "total": 38384,
+        "correct": 4226
+      },
+      "Kasra": {
+        "accuracy": 0.05415640655514987,
+        "total": 58885,
+        "correct": 3189
+      },
+      "Shadda": {
+        "accuracy": 0.05271287893415717,
+        "total": 20716,
+        "correct": 1092
+      },
+      "Sukun": {
+        "accuracy": 0.091654487824321,
+        "total": 52687,
+        "correct": 4829
+      }
+    },
+    "bleu": 0.0995,
+    "full_der": 0.9164,
+    "case_ending_der": 0.6886,
+    "wer": 0.9506
+  }
+}
